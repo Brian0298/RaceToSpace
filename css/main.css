@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body{padding: 0; margin: 0 auto; box-sizing: border-box; color: white; font-family: Montserrat; width: 100%; min-height: 2000px; background: #0d1026}
+.parallax-window {
+    height: 100vh;
+    background: transparent;
+}
+h2{font-family: "Paytone One"; font-size: 54px;}
+h3{font-family: "Paytone One"; font-size: 28px;}
+p{font-size: 18px;}
+
+#banner{position: relative; overflow: hidden; width: 100%; height: 130vh; background: #0d1026; display: flex; justify-content: center; align-items: center}
+#banner .parallax-window{height: 300vh}
+#banner img{position: absolute; z-index: 10; pointer-events: none; background-position: center; background-size: auto; transform: scale(1.05)}
+#img0{top: 0}
+#img1{right: 10%; top:0}
+#img2{top: 12%}
+#img3{left: 12%; bottom: 0}
+
+#section1{min-height: 500px; background-color: #0d1026; display: flex; justify-content: center; align-items: center}
+#section1::before{content: ''; position: absolute; top: 1050px; width: 100%; height: 250px; background: linear-gradient(to top, #0d1026, transparent); z-index: 10000;}
+#content1 h2{margin-bottom: 10px; font-size: 54px;}
+
+#section2{display: flex; justify-content: center; flex-direction: column}
+.bg2-1{width: 100%; height: 100vh; background: url(../images/background-2-1.png); background-size: auto; background-position: center; background-repeat: no-repeat; background-attachment: local}
+#content2{ color: #0d1026;}
+#content2 hr{width: 50%; float: left; border-bottom: 1px solid #0d1026}
+
+#section3{min-height: 500px; background-color: #0d1026; display: flex; justify-content: center; align-items: center}
+#content3 h2{margin-bottom: 10px; font-size: 54px;}
+
+#section4{display: flex; justify-content: center; flex-direction: column}
+.bg4-1{width: 100%; height: 100vh; background: url(../images/background-4-1.png); background-size: auto; background-position: center; background-repeat: no-repeat; background-attachment: local}
+#content4{ color: #0d1026;}
+#content4 hr{width: 50%; float: right; border-bottom: 1px solid #0d1026}
+
+#section5{width: 100%; height: 3240px; background-image: url(../design/earth-bg-01.png); background-position: center; background-size: cover; background-origin: border-box; background-repeat: no-repeat; position: relative}
+#section5 img{position: absolute; z-index: 10; transform: scale(0.7)}
+#img5-1{ left: 2%; animation: roc1 5s linear infinite; position: relative}
+@keyframes roc1{
+	0%	{top: 700px}
+	50%	{top: 100px}
+	100%	{top: 700px}
+}
+#img5-2{right: 2%; animation: roc2 4s linear infinite; position: relative}
+@keyframes roc2{
+	0%	{top: 1200px}
+	50%	{top: 600px}
+	100%	{top: 1200px}
+}
+#img5-3{left: 2%; animation: roc3 3.7s linear infinite; position: relative}
+@keyframes roc3{
+	0%	{top: 1700px}
+	50%	{top: 1100px}
+	100%	{top: 1700px}
+}
+#img5-4{right: 2%; animation: roc4 3.5s linear infinite; position: relative}
+@keyframes roc4{
+	0%	{top: 2200px}
+	50%	{top: 1600px}
+	100%	{top: 2200px}
+}
+#section5 .parallax-window{height: 1500vh}
+#cus5 hr{width: 50%}
+.custom5{margin-top: 50px}
+.custom5-2{margin-top: 20px}
+.custom5-2 p{margin-bottom: 10px;}
+
+#section6{width: 100%; height: 500px; background-color: #0d1026; margin-top: -50px; display: flex; justify-content: center; align-items: center; flex-direction: column}
+#section6 hr{width: 10%; border-bottom: 1px solid white}
+#section6::before{content: ''; position: absolute; top: 7300px; width: 100%; height: 250px; background: linear-gradient(to top, #0d1026, transparent); z-index: 10000;}
+
+
+#content2 button, #content4 button{width: 150px; height: 50px; padding: 15px; margin-top: 50px; border: 2px solid #0d1026; border-radius: 50px; color: #0d1026; outline: none; cursor: pointer; font-size: 16px;}
+#content2 button:hover, #content4 button:hover{ background:linear-gradient(45deg,#0d1026,#054f90); color: white; border: none; outline: none;}
+/*
+span{position: absolute; background: white; transform: translate(-50%,-50%); pointer-events: none; border-radius: 50%; animation:  animate 1s linear infinite;}
+@keyframes animate{
+	0%
+	{
+		width: 0px; height: 0px;
+	}
+	100%
+	{
+		width: 50px; height: 50px;
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
